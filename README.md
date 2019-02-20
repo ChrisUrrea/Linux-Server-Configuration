@@ -202,3 +202,4 @@ Now you should be able to run the application at http://206.189.151.124.xip.io/.
 [3] https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 [4] https://github.com/boisalai/udacity-linux-server-configuration
 [5] https://github.com/SDey96/Udacity-Linux-Server-Configuration-Project
+[6] https://github.com/SruthiV/Linux-Server-Configuration
