@@ -2,10 +2,10 @@
 > Christian Urrea
 
 ### IP and URL:
-> Server Public IP: 167.99.195.44
-> Application URL: http://167.99.195.44.xip.io
-> SSH login: ssh -i ./.ssh/udacity -p 2200 grader@167.99.195.44
-> Sudo password: grader
+- Server Public IP: 167.99.195.44
+- Application URL: http://167.99.195.44.xip.io
+- SSH login: ssh -i ./.ssh/udacity -p 2200 grader@167.99.195.44
+- Sudo password: grader
 
 ### How To:
 ### Create RSA Key Pair:
