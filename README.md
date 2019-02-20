@@ -1,5 +1,3 @@
-# Linux-Server-Configuration
-
 # Linux Server Configuration
 > Christian Urrea
 
