@@ -4,8 +4,8 @@
 ### IP and URL:
 - Server Public IP: 167.99.195.44
 - Application URL: http://167.99.195.44.xip.io
-- SSH login: ssh -i ./.ssh/udacity -p 2200 grader@167.99.195.44
-- Sudo password: grader
+- SSH login: ssh -i ./.ssh/linux-server -p 2200 chris@167.99.195.44
+- Sudo password: root
 
 ### How To:
 ### Create RSA Key Pair:
