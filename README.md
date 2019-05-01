@@ -11,17 +11,17 @@
 ### Create RSA Key Pair:
 Set up a public and private key pair to securely log into the server. The key pair will authenticate you when logging in to the server via SSH. The private key will be kept in your local machine, and the public key will be saved in the server.
 1. In a local terminal window, generate the key pair by running  `$ ssh-keygen`
-2. Enter file in which to save the key: `/home/user/.ssh/udacity`
+2. Enter file in which to save the key: `/home/user/.ssh/linux-server`
 3. If you wish to add a level of security - enter a passphrase or if not you may either leave it empty.
 You now have a public and private key that for SSH authentication. The key pair is stored inside the *~/.ssh/* directory.
-The public key is called *udacity.pub* and the corresponding private key is called *udacity*.
+The public key is called *linux-server.pub* and the corresponding private key is called *linux-server*.
 
 
 #### Digital Ocean Droplet
 1. Log in/create an account on *DigtalOcean*.
 2. Create Droplet with image: Ubuntu 18.04 x64
 3. Choose a preferred size. I chose the minimum size (1GB/1 vCPU/25GB)
-4. Find the section *Add Your SSH Keys*, and paste the content the public key, *udacity.pub* in *SSH content window*. Finalize by adding SSH key.
+4. Find the section *Add Your SSH Keys*, and paste the content the public key, *linux-server.pub* in *SSH content window*. Finalize by adding SSH key.
 NOTE: After this step, DigitalOcean will automatically do two thing:
   a. Firstly, create  *~/.ssh/authorized_keys* with appropriate permissions and add your public key to it.
   b. Secondly, it will add the following line to */etc/ssh/sshd_config*: `PasswordAuthentication no`. Essentially disabling password authentication on the root user, and enforcing logins exclusively to SSH.
